@@ -32,7 +32,7 @@ async function bootstrap() {
     credentials: true,
   }); // Permitir CORS para conectar el frontend
 
-  const port = process.env.PORT || 3000; // Define the port variable
+  const port = process.env.PORT || 8080; 
   await app.listen(port); // Usa la variable de entorno PORT, si está definida
   console.log(`Backend ejecutándose en http://localhost:${port}`);
 }
