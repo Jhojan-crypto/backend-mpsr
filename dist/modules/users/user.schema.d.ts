@@ -26,8 +26,6 @@
 import { Document } from 'mongoose';
 export declare class User extends Document {
     email: string;
-    telefono: string;
-    telefonoFamiliar: string;
     fechaRegistro: Date;
     username?: string;
     password?: string;
